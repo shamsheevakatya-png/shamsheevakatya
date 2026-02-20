@@ -1,0 +1,312 @@
+ 1090  git checkout hdfstask3
+ 1094  git add . && git commit -m "task 3" && git push origin hdfstask3
+ 1096  git checkout hdfstask4
+ 1098  git add . && git commit -m "task 4" && git push origin hdfstask4
+ 1099  git checkout hdfstask5
+ 1101  git add . && git commit -m "task 5" && git push origin hdfstask5
+ 1160  git clone https://github.com/Dreaaammy/hw_3
+ 1161  git status
+ 1162  git init
+ 1163  git status
+ 1164  git add README.md
+ 1165  git add .
+ 1166  git branch -M main
+ 1167  git remote add origin https://github.com/Dreaaammy/hw_3.git
+ 1168  git status
+ 1169  git add .
+ 1170  git branch
+ 1171  git diff
+ 1172  git add .
+ 1174  rm -rf hw_3/.git
+ 1175  git status
+ 1176  git commit -m "Task 3" 
+ 1177  git push origin main
+ 1178  git status
+ 1179  git add hw_3/
+ 1180  git commit -m ""
+ 1181  git commit -m "Answer"
+ 1182  git push origin main
+ 1183  git status
+ 1186  git diff hw_3/
+ 1187  git status
+ 1188  git add hw_3/
+ 1189  git commit -m "3"
+ 1190  git push origin main
+ 1207  git clone https://gitlab.atp-fivt.org/studoko-groups/java-2025a/reflection/ljapinalex-reflection.git
+ 1209  git branch -r
+ 1210  git checkout reflection-task1
+ 1212  rsync -a --exclude 'target' --exclude '.idea' --exclude '.git'   ~/prog/java/reflection-practice/ hw1task1/
+ 1213  rsync -a --exclude 'target' --exclude '.idea' --exclude '.git'   ~/prog/java/reflection-practice/ reflection-task1/
+ 1214  rsync -a --exclude 'target' --exclude '.idea' --exclude '.git'   ~/prog/java/reflection-practice/ reflection-task1/
+ 1216  cat > reflection-task1/.gitignore <<'EOF'
+ 1223  git add reflection-task1
+ 1224  git commit -m "reflection-task1"
+ 1225  git push origin reflection-task1
+ 1232  rsync -a --exclude 'target' --exclude '.idea' --exclude '.git'   ~/prog/java/reflection-practice/ reflection-task1/
+ 1326  cat > .gitignore << 'EOF'
+ 1340  git init
+ 1341  git add main.py rules.dns README.md .gitignore
+ 1342  git commit -m "Initial commit: DNS NFQUEUE filter (dns-guard)"
+ 1343  git branch -M main
+ 1344  git remote add origin https://github.com/Dreaaammy/hw_4.git
+ 1345  git push -u origin main
+ 1451  git init
+ 1452  git status
+ 1453  git add .
+ 1454  git status
+ 1459  nano .gitignore
+ 1473  git rm -r --cached pycache || true
+ 1474  git rm -r --cached *.pyc || true
+ 1475  git rm -r --cached .vscode || true
+ 1476  git rm -r --cached .idea || true
+ 1477  git add .
+ 1478  git status
+ 1479  git commit -m "5"
+ 1480  git push
+ 1481  git remote add origin https://github.com/Dreaaammy/hw_5
+ 1482  git remote -v
+ 1483  git branch -M main
+ 1484  git push -u origin main
+ 1496  git init
+ 1497  git remote remove origin 2>/dev/null
+ 1498  git remote add origin https://gitlab.atp-fivt.org/studoko-groups/pd-2025a/mapreduce/ljapinalex-mapreduce.git
+ 1499  git remote -v
+ 1500  git checkout mapreducetask1/
+ 1501  git fetch
+ 1502  git branch -a
+ 1503  git checkout -b mapreducetask1 origin/mapreducetask1
+ 1504  git branch
+ 1505  git add mapreducetask1
+ 1506  git commit -m "Add solution"
+ 1507  git push
+ 1585  git init
+ 1586  git add interceptor.py README.md
+ 1587  git commit -m "HW6"
+ 1588  git branch -M main
+ 1589  git remote add origin https://github.com/Dreaaammy/hw_6.git
+ 1590  git push -u origin main
+ 1594  git fetch
+ 1595  git checkout -b hivetask1 origin/hivetask1 || git checkout hivetask1
+ 1596  git add hivetask1
+ 1597  git commit -m "Add solution for hivetask1"
+ 1598  git push -u origin hivetask1
+ 1601  git init
+ 1603  git remote add origin https://gitlab.atp-fivt.org/studoko-groups/pd-2025a/hive/ljapinalex-hive.git
+ 1605  git fetch
+ 1608  git checkout -b hivetask1 origin/hivetask1
+ 1610  git add hivetask1
+ 1612  git commit -m "Add solution for hivetask1"
+ 1614  git push -u origin hivetask1
+ 1616  # чтобы git не ругался при переключении ветки
+ 1619  git checkout -b hivetask1 origin/hivetask1
+ 1621  git checkout master -- hivetask1
+ 1624  git add hivetask1
+ 1625  git commit -m "Add solution for hivetask1"
+ 1626  git push -u origin hivetask1
+ 1629  git checkout -b hivetask2 origin/hivetask2
+ 1631  git add hivetask2
+ 1633  git commit -m "Add solution for hivetask2"
+ 1635  git push -u origin hivetask2
+ 1637  git checkout -b hivetask3 origin/hivetask3  # или git checkout hivetask3, если ветка уже локальная
+ 1638  git add hivetask3
+ 1639  git commit -m "Add solution for hivetask3"
+ 1640  git push -u origin hivetask3
+ 1642  git checkout -b hivetask4 origin/hivetask4  # или git checkout hivetask4
+ 1643  git add hivetask4
+ 1644  git commit -m "Add solution for hivetask4"
+ 1645  git push -u origin hivetask4
+ 1647  git checkout -b hivetask5 origin/hivetask5  # или git checkout hivetask5
+ 1648  git add hivetask5
+ 1649  git commit -m "Add solution for hivetask5"
+ 1650  git push -u origin hivetask5
+ 1764  git clone https://gitlab.atp-fivt.org/studoko-groups/java-2025a/multithreading/ljapinalex-multithreading.git
+ 1766  git fetch
+ 1767  git branch -a
+ 1768  git checkout multithreading-task1
+ 1772  git add multithreading-task1
+ 1773  git commit -m "Add solution for task1"
+ 1774  git push origin multithreading-task1
+ 1775  git checkout multithreading-task2
+ 1779  git add multithreading-task2
+ 1780  git commit -m "Add solution for task2"
+ 1781  git push origin multithreading-task2
+ 1794  git clone https://gitlab.com/mcn2025a/hw7.git
+ 1796  git remote -v
+ 1797  git checkout -b Liapin origin/master
+ 1803  git add acme
+ 1804  git status
+ 1805  git commit -m "Liapin Aleksei"
+ 1806  git push -u origin Liapin
+ 1807  git status
+ 1808  git add acme
+ 1809  git commit -m "Fix ACME sign status codes"
+ 1810  git push
+ 1811  git status
+ 1812  git add acme
+ 1813  git commit -m "Fxing"
+ 1814  git push
+ 1815  git status
+ 1816  git add acme
+ 1817  git commit -m "Fixing"
+ 1818  git push
+ 1822  git init
+ 1823  git remote add origin https://gitlab.atp-fivt.org/studoko-groups/pd-2025a/pdspark/ljapinalex-pdspark.git
+ 1824  git remote -v
+ 1825  git fetch
+ 1826  git branch -a
+ 1827  git checkout -b pdsparktask1 origin/pdsparktask1
+ 1830  git checkout -b pdsparktask1 origin/pdsparktask1
+ 1831  git add pdsparktask1
+ 1832  git commit -m "pdsparktask1"
+ 1833  git push -u origin pdsparktask1
+ 1835  git clone https://github.com/Dreaaammy/hw_5
+ 1842  git status
+ 1843  git add README.md network_app/tls_utils.py network_app/client.py network_app/server.py
+ 1844  git commit -m "I did smth ^^"
+ 1845  git push
+ 1847  git push
+ 1852  git status
+ 1853  git branch
+ 1854  git fetch origin
+ 1855  git checkout -b pdsparktask2 origin/pdsparktask2
+ 1856  git status
+ 1857  git add pdsparktask2
+ 1858  git status
+ 1859  git commit -m "2"
+ 1860  git push origin pdsparktask2
+ 1861  git branch
+ 1862  git checkout pdsparktask2
+ 1863  git status
+ 1864  git add pdsparktask2
+ 1865  git commit -m "Fix"
+ 1866  git push origin pdsparktask2
+ 1867  git checkout pdsparktask2
+ 1868  git add pdsparktask2
+ 1869  git commit -m "Fix2"
+ 1870  git push origin pdsparktask2
+ 1871  git add pdsparktask2
+ 1872  git commit -m "Fix3"
+ 1873  git push origin pdsparktask2
+ 1874  git add pdsparktask2
+ 1875  git commit -m "Fixing"
+ 1876  git push origin pdsparktask2
+ 1877  git add pdsparktask2
+ 1878  git commit -m "Fixing"
+ 1879  git add pdsparktask2
+ 1880  git commit -m "Fixing"
+ 1881  git push origin pdsparktask2
+ 1883  git remote -v
+ 1884  git checkout hdfstask5
+ 1886  git status
+ 1887  git add hdfstask5
+ 1888  git add run.sh
+ 1889  git commit -m "Fixing"
+ 1890  git push origin hdfstask5
+ 1891  git add run.sh
+ 1892  git commit -m "Fix"
+ 1893  git push origin hdfstask5
+ 1895  git init
+ 1896  git remote add origin https://gitlab.atp-fivt.org/studoko-groups/java-2025a/spring/ljapinalex-spring.git
+ 1897  git remote -v
+ 1898  git checkout hw1task1
+ 1899  git checkout spring-task1
+ 1900  git fetch origin
+ 1901  git branch -r
+ 1902  git checkout -b spring-task1 origin/spring-task1
+ 1903  git add .
+ 1904  git commit -m "task 1"
+ 1905  git push origin spring-task1
+ 1906  git checkout -b spring-task1 origin/spring-task1
+ 1907  git add .
+ 1908  git commit -m "task 1"
+ 1909  git checkout spring-task1
+ 1911  git add hw1task1 README.md
+ 1912  git commit -m "Spring HW task 1"
+ 1914  git add .
+ 1915  git commit -m "Spring HW task 1"
+ 1916  git push origin spring-task1
+ 1917  git checkout spring-task2
+ 1918  git add .
+ 1919  git commit -m "Spring HW task 1"
+ 1920  git push origin spring-task2
+ 1923  git init
+ 1924  git fetch origin
+ 1925  git branch -r
+ 1926  git checkout origin/mapreducetask2
+ 1927  git checkout -b mapreducetask2
+ 1928  git branch 
+ 1930  git status
+ 1931  git add /home/aleksey/prog/parallel/mapreduce-main/mapreducetask2
+ 1933  git commit -m "task 2"
+ 1934  git push origin mapreducetask2
+ 1937  git branch
+ 1940  git rm -r hivetask6
+ 1941  git status
+ 1942  git add .
+ 1943  git commit -m "1
+ 1944  git push origin hivetask6
+ 1947  git checkout main
+ 1948  git checkout hivetask1
+ 1949  git rm -r hivetask1
+ 1950  git add .
+ 1951  git commit -m "1"
+ 1952  git push origin hivetask1
+ 1953  git add .
+ 1954  git commit -m "1"
+ 1955  git push origin hivetask1
+ 1956  git add .
+ 1957  git checkout -m "task1"
+ 1958  git commit -m "task1"
+ 1959  git push origin hivetask1
+ 1960  git add .
+ 1961  git commit -m "task1"
+ 1962  git push origin hivetask1
+ 1968  git status 
+ 1998  git clone https://github.com/Weakne55/Bioinformatics305.git
+ 2001  git remote remove origin
+ 2003  git remote add origin https://github.com/shamsheevakatya-png/shamsheevakatya.git
+ 2004  git branch
+ 2010  git add .
+ 2011  git status
+ 2012  git commit -m "Cleanup temp files"
+ 2013  git push -u origin master
+ 2014  git checkout -b investigation
+ 2018  git add infected_reads.txt
+ 2019  git commit -m "Add infected reads list"
+ 2020  git push -u origin investigation
+ 2021  git branch
+ 2025  git add mini_run.fastq
+ 2026  git commit -m "Add mini run fastq file"
+ 2027  git push origin investigation
+ 2028  git checkout master
+ 2033  git checkout master
+ 2037  git checkout master
+ 2040  git status
+ 2041  git checkout lab_disaster/experiment.log
+ 2043  echo "git checkout lab_disaster/experiment.log" > command.txt
+ 2044  git add command.txt
+ 2045  git commit -m "Add command to restore experiment.log"
+ 2046  git push origin master
+ 2051  git add access.log sort.txt
+ 2052  git commit -m "Add sorted user stats"
+ 2053  git merge investigation
+ 2054  git commit -m "Merge branch investigation into master"
+ 2055  git push origin master
+ 2059  git add genes.tsv genes_fixed.csv
+ 2060  git commit -m "Convert genes.tsv to CSV"
+ 2061  git push origin master
+ 2062  git checkout -b cleaning
+ 2066  git add diskusage.file
+ 2067  git commit -m "Add disk usage report"
+ 2068  git push -u origin cleaning
+ 2069  git checkout master
+ 2071  git add secret.txt
+ 2072  git commit -m "My important commit"
+ 2073  git log --oneline -1
+ 2076  git add forgotten.txt
+ 2077  git commit --amend --no-edit
+ 2081  git add amend.txt
+ 2082  git commit -m "Add amend explanation"
+ 2083  git log --oneline -3
+ 2084  git push origin master
+ 2085  history | grep git > report_commands.txt
